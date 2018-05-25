@@ -1,0 +1,26 @@
+{
+    "AS_Calendar_bb8157707ba044d4b9dbc0ca45339ee2": {
+        "id": "AS_Calendar_bb8157707ba044d4b9dbc0ca45339ee2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "boolean",
+            "name": "isValidDateSelected"
+        }],
+        "contextObj": {
+            "KUID": "b60ed1dab123415792b22b88355c2400",
+            "name": "uwb60ed1dab123415792b22b88355c2400",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f07b26656b2949f8bace06d66cd12f2a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSelectionDone();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

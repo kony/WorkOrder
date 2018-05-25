@@ -1,0 +1,29 @@
+{
+    "AS_Image_g5765488e54f49fcbc5ca7ebdbd9927d": {
+        "id": "AS_Image_g5765488e54f49fcbc5ca7ebdbd9927d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "uwu4de0749b5164b479057dc65a61c3581",
+            "type": "userwidgets",
+            "KUID": "u4de0749b5164b479057dc65a61c3581"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cc6bc6ba217442a6bbb82545e6ad996d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "// kony.phone.sendSMS(this.view.flxMain.tbxPhone.text, \"\");\nthis.sendSMS();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

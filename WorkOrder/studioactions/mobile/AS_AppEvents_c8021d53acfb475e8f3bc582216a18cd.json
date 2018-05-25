@@ -1,0 +1,18 @@
+{
+    "AS_AppEvents_c8021d53acfb475e8f3bc582216a18cd": {
+        "id": "AS_AppEvents_c8021d53acfb475e8f3bc582216a18cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e45d777f06dc4ca3b7cd9ee887acad1c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "handleDeeplinkCallback(eventobject);\nreturn kony.application.getCurrentForm();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

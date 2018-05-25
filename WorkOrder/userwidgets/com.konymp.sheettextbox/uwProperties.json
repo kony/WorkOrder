@@ -1,0 +1,158 @@
+{
+    "classname": "sheettextbox",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d8b4c242fd3c46bdb5a95b8272399c34",
+                    "paramList": [],
+                    "propertyKey": "setGlobalValue",
+                    "pw": {
+                        "displayName": "setGlobalValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ea267edc4b314072b3229cc4041c72f7",
+                    "paramList": [],
+                    "propertyKey": "getComponentType",
+                    "pw": {
+                        "displayName": "getComponentType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g3201a375be24ef4b982636fea52b873",
+                    "paramList": [],
+                    "propertyKey": "setEnable",
+                    "pw": {
+                        "displayName": "setEnable",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ca9f00c58fe347cbb74cc9d28eddf302",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hab476e644a04c2eba6ed4d3cb33d734",
+                    "paramList": [],
+                    "propertyKey": "setText",
+                    "pw": {
+                        "displayName": "setText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i05c97b91d9e47f9af45d8499b960489",
+                    "paramList": [],
+                    "propertyKey": "getTextBoxText",
+                    "pw": {
+                        "displayName": "getTextBoxText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b941abffd30a4fb2b52ada2805eadd87",
+                    "originalPropertyKey": "columnName",
+                    "propertyIndex": 3,
+                    "propertyKey": "columnName",
+                    "pw": {
+                        "displayName": "Column",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "d1b15c6b6f794c9bb39dcf9650780c43",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "j55033e8b73d4807ac72d9d45a9f8d85",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "labelText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Label Text",
+                        "srcWidget": "lblName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "jdfa3026e7da41cdb8f98a5e98d61ba8"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fa1c3c9d703e4b938e098035a1a1a9f3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "tbxPlaceholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "TextBox Placeholder",
+                        "srcWidget": "tbxName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "ec0fb3304dfc4fc595035034efb1d385"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

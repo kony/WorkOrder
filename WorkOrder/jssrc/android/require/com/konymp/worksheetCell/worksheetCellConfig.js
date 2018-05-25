@@ -1,0 +1,57 @@
+define(function() {
+    return {
+        "properties": [{
+            "name": "sknPokerChipBackground",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknPokerChipText",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknTextBoxBackground",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sknTextBox",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "displayType",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "readOnly",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "spreadsheetId",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "sheetName",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "columnName",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }, {
+            "name": "rowNumber",
+            "enumerable": true,
+            "configurable": false,
+            "writable": true
+        }],
+        "apis": ["fetchAndSetCellData"],
+        "events": []
+    }
+});

@@ -1,0 +1,341 @@
+{
+    "classname": "worksheetlist",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c05e12542a88420ea59c692c539fcf77",
+                    "paramList": [],
+                    "propertyKey": "fetchAndSetData",
+                    "pw": {
+                        "displayName": "fetchAndSetData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b44a7f8b6cc84e589dd2dedf2ac1e37f",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickLogOut",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickLogOut",
+                        "srcWidget": "flxLogout",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e39d4e12b8c9401db759a7164297d10d"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Chart",
+                "Worksheet Row"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d1d762fc2a1f467dadfa1b06d9e7e3a5",
+                    "originalPropertyKey": "spreadsheetid",
+                    "propertyIndex": 1,
+                    "propertyKey": "spreadsheetid",
+                    "pw": {
+                        "displayName": "Spreadsheet ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "A",
+                    "group": "Worksheet Row",
+                    "kuid": "ed32824cfb1f42719b5a2083ddd1b0df",
+                    "originalPropertyKey": "column1",
+                    "propertyIndex": 1,
+                    "propertyKey": "column1",
+                    "pw": {
+                        "displayName": "Element1 Column",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ia8a43c5c5c4442693e50ed0285efcc7",
+                    "originalPropertyKey": "range",
+                    "propertyIndex": 2,
+                    "propertyKey": "range",
+                    "pw": {
+                        "displayName": "Data Range in A1 Notation",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "B",
+                    "group": "Worksheet Row",
+                    "kuid": "a6d278dd55cc47b8899c57a217629024",
+                    "originalPropertyKey": "column2",
+                    "propertyIndex": 2,
+                    "propertyKey": "column2",
+                    "pw": {
+                        "displayName": "Element2 Column",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "C",
+                    "group": "Worksheet Row",
+                    "kuid": "f406f215a19349939e19b4c57ebfb1d8",
+                    "originalPropertyKey": "column3",
+                    "propertyIndex": 3,
+                    "propertyKey": "column3",
+                    "pw": {
+                        "displayName": "Element3 Column",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "D",
+                    "group": "Worksheet Row",
+                    "kuid": "b707cb15c3724f76b2013be6c8896698",
+                    "originalPropertyKey": "column4",
+                    "propertyIndex": 4,
+                    "propertyKey": "column4",
+                    "pw": {
+                        "displayName": "Element4 Column",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Chart",
+                    "kuid": "ecd6bbc374fe483c899d8a4c03ba511b",
+                    "originalPropertyKey": "chartrange",
+                    "propertyIndex": 4,
+                    "propertyKey": "chartrange",
+                    "pw": {
+                        "displayName": "Data Range in A1 Notation",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "hb304e4d9c064da7b34bbb048d6c1244",
+                    "originalPropertyKey": "lastRowFirst",
+                    "propertyIndex": 6,
+                    "propertyKey": "lastRowFirst",
+                    "pw": {
+                        "displayName": "last row first",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "bef615df675f42c79f54d0fa4165952a",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc7a39ca85a045b4b8fe2ecfec77386d",
+                    "originalPropertyKey": "left",
+                    "propertyIndex": 3,
+                    "propertyKey": "left1",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "defaultValue": {
+                            "type": "string",
+                            "value": ""
+                        },
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Left",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "desktopweb",
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spaip",
+                                "spaan",
+                                "spawinphone8",
+                                "spabb"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spaipad",
+                                "spaandroidtablet",
+                                "spawindowstablet"
+                            ]
+                        },
+                        "srcWidget": "flxDetail1",
+                        "type": "object",
+                        "uiConfig": {
+                            "Combobox": {
+                                "masterData": [
+                                    [
+                                        "Dp",
+                                        "dp"
+                                    ],
+                                    [
+                                        "Px",
+                                        "px"
+                                    ],
+                                    [
+                                        "%",
+                                        "%"
+                                    ],
+                                    [
+                                        "Default",
+                                        "Default"
+                                    ]
+                                ]
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Combobox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "g205e0da55ad4d76877265369c9bc2c2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "Chart",
+                    "kuid": "g3850c3523644978a293d3ff06d23588",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 3,
+                    "propertyKey": "chartVisibility",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Visible",
+                        "srcWidget": "flxChart",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d0da9116aa5e465e889ffbe6d3d22c67"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cc7a88d478ca4eb3a68913e0a3c60d2a",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "isVisibleAddRow",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Add Row Visibility",
+                        "srcWidget": "flxActionButton",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b9dbd11b47b54816b93d8ce810bbce1b"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h4468fe6d56440edb1874ff2c01af698",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "headerName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Header Name",
+                        "srcWidget": "lblHeaderName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f63d9a0e2cef43f3ac64b08eeb076e9c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "d3e94deea970404493560a274372d400",
+                    "propertyKey": "flxDetail1",
+                    "srcWgtKUID": "g205e0da55ad4d76877265369c9bc2c2"
+                },
+                {
+                    "kuid": "acdcf28f36054132b59a4a587625ea54",
+                    "propertyKey": "flxDetail",
+                    "srcWgtKUID": "a184d9663cfd4573a24fd531c147ad26"
+                }
+            ],
+            "passthrough": [
+                {
+                    "kuid": "f1f9e0cd1b63486b8eccd3024d1afaf3",
+                    "placeholder": "Drag Sheet Components ",
+                    "propertyKey": "flxDetail",
+                    "srcWgtKUID": "a184d9663cfd4573a24fd531c147ad26"
+                }
+            ]
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

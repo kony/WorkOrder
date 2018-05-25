@@ -1,0 +1,201 @@
+{
+    "classname": "SheetDate",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e6ea1b55e0794a5fb3f33dba09fe6d70",
+                    "paramList": [],
+                    "propertyKey": "getComponentType",
+                    "pw": {
+                        "displayName": "getComponentType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hd9838dc1bde49888f3d26624c06b396",
+                    "paramList": [],
+                    "propertyKey": "getLabelData",
+                    "pw": {
+                        "displayName": "getLabelData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ga863dd0ead64f43ace3f7e8a44c311f",
+                    "paramList": [],
+                    "propertyKey": "setLabelData",
+                    "pw": {
+                        "displayName": "setLabelData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e459f4cecd014d738270236efaf3b495",
+                    "paramList": [],
+                    "propertyKey": "resetSelectedValue",
+                    "pw": {
+                        "displayName": "resetSelectedValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i1e0365d81d44d4db790c2183c551199",
+                    "paramList": [],
+                    "propertyKey": "getSelectedValue",
+                    "pw": {
+                        "displayName": "getSelectedValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ea9928c660914efa9c39ba548ce84ea0",
+                    "paramList": [],
+                    "propertyKey": "setSelectedDate",
+                    "pw": {
+                        "displayName": "setSelectedDate",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e71550fe92d7409cae2546dac1c8c92c",
+                    "originalPropertyKey": "columnName",
+                    "propertyIndex": 12,
+                    "propertyKey": "columnName",
+                    "pw": {
+                        "displayName": "column name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "hff689162500473585a9e7fa0d693eb8",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bc4cab3a091c4000afdcc930e87f3fcf",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 10,
+                    "propertyKey": "isVisibleCalendar",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Is Calendar Visible",
+                        "srcWidget": "cal1",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "c93039dca7b846aaaf4d778e613ac8a6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed012975a4ad4d9fa672f83be77da145",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 11,
+                    "propertyKey": "placeholderCal",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": "",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Calendar Placeholder",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk"
+                            ],
+                            "mobile": [
+                                "winphone8"
+                            ],
+                            "tablet": [
+                                "windows8"
+                            ]
+                        },
+                        "srcWidget": "cal1",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Text",
+                                "dataUpdaterId": "Forked-Text",
+                                "popupId": "Forked-Text",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {},
+                            "Textbox": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Button",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "c93039dca7b846aaaf4d778e613ac8a6"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ae3ffd9f767a485890125a139e96b0e1",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 13,
+                    "propertyKey": "textTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title Text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ja045131b6154c308b0307345ba836e8"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

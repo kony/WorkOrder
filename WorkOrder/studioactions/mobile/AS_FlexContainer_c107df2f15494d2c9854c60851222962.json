@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_c107df2f15494d2c9854c60851222962": {
+        "id": "AS_FlexContainer_c107df2f15494d2c9854c60851222962",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmJobStatus",
+            "type": "forms",
+            "platform": null,
+            "KUID": "d85e42c714704f35b50a68d3f9b15cdb"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___fc0056b3e4a342e18a5915a97bf1ae94",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmWorkSheet",
+            "formKUID": "j599f42cbfbf437eb6dc8cf9dc5fe99a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

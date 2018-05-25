@@ -1,0 +1,232 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3456 W Sand lake Rd, 23819"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Smith"
+            },
+            "lblTiming": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "8:00 - 10:00 AM"
+            }
+        },
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3456 W Sand lake Rd, 23819"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Smith"
+            },
+            "lblTiming": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "8:00 - 10:00 AM"
+            }
+        },
+        {
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "3456 W Sand lake Rd, 23819"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Smith"
+            },
+            "lblTiming": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "8:00 - 10:00 AM"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "62%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segList",
+    "ide_onRowClick": "AS_Segment_a219221d0a5d4299b0a78e20e4913f33",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "isvisible": true,
+    "kuid": "i392c6aa96714d34b079298b894f9412",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "imgIndicator": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_wl_chevron.png"
+                },
+                "lblColumn1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "John Smith"
+                },
+                "lblColumn2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3456 W Sand lake Rd, 23819"
+                },
+                "lblColumn3": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "8:00 - 10:00 AM"
+                },
+                "lblColumn4": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Open"
+                }
+            },
+            {
+                "imgIndicator": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_wl_chevron.png"
+                },
+                "lblColumn1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "John Smith"
+                },
+                "lblColumn2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3456 W Sand lake Rd, 23819"
+                },
+                "lblColumn3": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "8:00 - 10:00 AM"
+                },
+                "lblColumn4": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Open"
+                }
+            },
+            {
+                "imgIndicator": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "konymp_wl_chevron.png"
+                },
+                "lblColumn1": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "John Smith"
+                },
+                "lblColumn2": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "3456 W Sand lake Rd, 23819"
+                },
+                "lblColumn3": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "8:00 - 10:00 AM"
+                },
+                "lblColumn4": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Open"
+                }
+            }
+        ],
+        "rowTemplateId": "e9522e7759844d8b9674b974bf81ccbe",
+        "rowtemplate": "flxMain",
+        "sectionHeaderTemplateId": null,
+        "widgetdatamap": {
+            "flxIndicator": "flxIndicator",
+            "flxMain": "flxMain",
+            "flxSpace": "flxSpace",
+            "flxTemp": "flxTemp",
+            "imgIndicator": "imgIndicator",
+            "lblColumn1": "lblColumn1",
+            "lblColumn2": "lblColumn2",
+            "lblColumn3": "lblColumn3",
+            "lblColumn4": "lblColumn4"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot_1.png",
+    "pageondotimage": "pageondot_1.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxList",
+    "pf": "userwidgetmodel",
+    "retainselection": false,
+    "rowTemplateId": "e9522e7759844d8b9674b974bf81ccbe",
+    "rowcounter": 2,
+    "rowfocusskin": "sd35a990901247fe9143240a27420b22",
+    "rowskin": "s1eb95d8cafb4d699b7dea646517c1d3",
+    "rowtemplate": "flxMain",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "sd3cd2628d654d6aa267b92e6062750d",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "1d1d265f",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxIndicator": "flxIndicator",
+        "flxMain": "flxMain",
+        "flxSpace": "flxSpace",
+        "flxTemp": "flxTemp",
+        "imgIndicator": "imgIndicator",
+        "lblColumn1": "lblColumn1",
+        "lblColumn2": "lblColumn2",
+        "lblColumn3": "lblColumn3",
+        "lblColumn4": "lblColumn4"
+    },
+    "zindex": 1
+}

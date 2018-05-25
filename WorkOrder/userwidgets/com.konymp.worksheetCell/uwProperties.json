@@ -1,0 +1,220 @@
+{
+    "classname": "worksheetCell",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e9ca83e898594497b7ba5ac6cfda369f",
+                    "paramList": [],
+                    "propertyKey": "fetchAndSetCellData",
+                    "pw": {
+                        "displayName": "fetchAndSetCellData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Text box",
+                "Poker chip",
+                "Spreadsheet",
+                "Cell Address"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "text box",
+                    "group": "General",
+                    "kuid": "b8ddd2e7cd504f9bab3c0adbd74faa5e",
+                    "originalPropertyKey": "displayType",
+                    "propertyIndex": 1,
+                    "propertyKey": "displayType",
+                    "pw": {
+                        "displayName": "Display type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "list selector",
+                    "value": [
+                        "text box",
+                        "poker chip"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "Text box",
+                    "kuid": "f53a5502bfe344d69d665d547c1c86f3",
+                    "originalPropertyKey": "readOnly",
+                    "propertyIndex": 1,
+                    "propertyKey": "readOnly",
+                    "pw": {
+                        "displayName": "Read only",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "boolean",
+                    "value": "true/false"
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Cell Address",
+                    "kuid": "h844c365b8a74bd8bdcf1e3b25b30ff4",
+                    "originalPropertyKey": "spreadsheetId",
+                    "propertyIndex": 1,
+                    "propertyKey": "spreadsheetId",
+                    "pw": {
+                        "displayName": "Spreadsheet Id",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Cell Address",
+                    "kuid": "a78a467cf9a941b5a9951a86dc78e1b7",
+                    "originalPropertyKey": "sheetName",
+                    "propertyIndex": 2,
+                    "propertyKey": "sheetName",
+                    "pw": {
+                        "displayName": "Sheet name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Cell Address",
+                    "kuid": "bedb38431c3346f2959c99337ba53b97",
+                    "originalPropertyKey": "columnName",
+                    "propertyIndex": 3,
+                    "propertyKey": "columnName",
+                    "pw": {
+                        "displayName": "Column name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "Cell Address",
+                    "kuid": "h26b864a92004f22bf105a95571de539",
+                    "originalPropertyKey": "rowNumber",
+                    "propertyIndex": 4,
+                    "propertyKey": "rowNumber",
+                    "pw": {
+                        "displayName": "Row number",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "j919ee6cb4ca4ca7a5ed8ce21060d6b4",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c2e97dba1db3404aba7f6b6793db58e8",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 2,
+                    "propertyKey": "sknPokerChipBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Poker chip Background",
+                        "srcWidget": "flxPoker",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "h415bfa4c39943d8bf458270cec9c82a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c442c7fd97664c16a75dbe0f08033c8c",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "sknPokerChipText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Poker chip text",
+                        "srcWidget": "lblText",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bfbd0e8cb88d49d68edc046720b8689a"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e63cb2aa50094600a409a8f8fb957894",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "sknTextBoxBackground",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text Box Background Color",
+                        "srcWidget": "flxTextBox",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "f40b7561eb3d4602bb4de45f92f3bea0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bcf1546bfb20449fa5386f4fdf2a3b6e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "sknTextBox",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text box ",
+                        "srcWidget": "tbxMain",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "fe8d272873c042a4813b2f97485fa53b"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

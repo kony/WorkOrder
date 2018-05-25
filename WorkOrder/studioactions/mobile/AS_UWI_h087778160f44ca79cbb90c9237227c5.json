@@ -1,0 +1,29 @@
+{
+    "AS_UWI_h087778160f44ca79cbb90c9237227c5": {
+        "id": "AS_UWI_h087778160f44ca79cbb90c9237227c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "response",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": null,
+            "KUID": "a436997a427544fdb9c436596423f3d7"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___f1180c713017413796f125a032847ab6",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmWorkSheet",
+            "formKUID": "j599f42cbfbf437eb6dc8cf9dc5fe99a",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

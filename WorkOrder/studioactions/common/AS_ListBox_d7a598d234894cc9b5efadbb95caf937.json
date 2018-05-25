@@ -1,0 +1,23 @@
+{
+    "AS_ListBox_d7a598d234894cc9b5efadbb95caf937": {
+        "id": "AS_ListBox_d7a598d234894cc9b5efadbb95caf937",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwua85f548f5c14e39854cbc7631177219",
+            "type": "userwidgets",
+            "KUID": "ua85f548f5c14e39854cbc7631177219"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__b4e2088c13954ac79e151192378a879a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onSelectionDone();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

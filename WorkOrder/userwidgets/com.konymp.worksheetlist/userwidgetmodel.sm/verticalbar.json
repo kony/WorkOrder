@@ -1,0 +1,135 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s0d124dcbd424c319781ba33b5a10db0",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "bgColor": "#D8D8D8",
+        "chartData": {
+            "data": [
+                {
+                    "colorCode": "#FF6600",
+                    "label": "S",
+                    "value": "25"
+                },
+                {
+                    "colorCode": "#00A2D9",
+                    "label": "M",
+                    "value": "20"
+                },
+                {
+                    "colorCode": "#8BC53E",
+                    "label": "T",
+                    "value": "10"
+                },
+                {
+                    "colorCode": "#00A2D9",
+                    "label": "W",
+                    "value": "30"
+                },
+                {
+                    "colorCode": "#FF6600",
+                    "label": "T",
+                    "value": "40"
+                },
+                {
+                    "colorCode": "#00A2D9",
+                    "label": "F",
+                    "value": "10"
+                },
+                {
+                    "colorCode": "#8BC53E",
+                    "label": "S",
+                    "value": "13"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Value",
+                    "columnHeaderType": "text",
+                    "columnID": "value",
+                    "columnOnClick": null,
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "adb02a6b13a046f4861d9d64ef0c34ee"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Color Code",
+                    "columnHeaderType": "text",
+                    "columnID": "colorCode",
+                    "columnOnClick": null,
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f7ad02b6f3df4493bb1ef588ab70e008"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "Label",
+                    "columnHeaderType": "text",
+                    "columnID": "label",
+                    "columnOnClick": null,
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "b59fe0cbc1394743a3214ea7583c0180"
+                }
+            ]
+        },
+        "chartTitle": "Last 7 Days",
+        "enableGrid": false,
+        "enableGridAnimation": false,
+        "enableStaticPreview": true,
+        "highValue": "10",
+        "xAxisTitle": "",
+        "yAxisTitle": ""
+    },
+    "id": "verticalbar",
+    "info": null,
+    "isvisible": true,
+    "kuid": "dbdc7415b0654283b3302e9ea86111d2",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxChart",
+    "pf": "userwidgetmodel",
+    "snaptogrid": true,
+    "sourceUserWidget": "c53217d16a4d4d35ad698d421a81f480",
+    "wType": "UserWidgetInstance"
+}

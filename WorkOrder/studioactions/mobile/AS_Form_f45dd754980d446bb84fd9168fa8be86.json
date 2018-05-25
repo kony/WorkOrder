@@ -1,0 +1,24 @@
+{
+    "AS_Form_f45dd754980d446bb84fd9168fa8be86": {
+        "id": "AS_Form_f45dd754980d446bb84fd9168fa8be86",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmWorkSheet",
+            "type": "forms",
+            "platform": null,
+            "KUID": "j599f42cbfbf437eb6dc8cf9dc5fe99a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f46e79f23a0a4e8986ce698303cd7162",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.worksheetlist.fetchAndSetData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

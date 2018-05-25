@@ -1,0 +1,257 @@
+{
+    "classname": "sheetlistbox",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e4100e69bf5344dc82227d14e05bab91",
+                    "paramList": [],
+                    "propertyKey": "fetchAndSetListBoxData",
+                    "pw": {
+                        "displayName": "fetchAndSetListBoxData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "f4bb0ebbf66d44799964b6400229a67c",
+                    "paramList": [],
+                    "propertyKey": "getComponentType",
+                    "pw": {
+                        "displayName": "getComponentType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "cdd5d925b1fc4a009bbbdbccff102374",
+                    "paramList": [],
+                    "propertyKey": "getLabelData",
+                    "pw": {
+                        "displayName": "getLabelData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e5b7cc063f054b69a14f4525e34975d7",
+                    "paramList": [],
+                    "propertyKey": "setLabelData",
+                    "pw": {
+                        "displayName": "setLabelData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "g67f722fc6a14cb8a77237c40126f15b",
+                    "paramList": [],
+                    "propertyKey": "getSpreadsheetId",
+                    "pw": {
+                        "displayName": "getSpreadsheetId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d7cab1b8a83243ff839af1c48f616c44",
+                    "paramList": [],
+                    "propertyKey": "setSpreadsheetId",
+                    "pw": {
+                        "displayName": "setSpreadsheetId",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d5e1619fd87c4b9eaf5df089117accbb",
+                    "paramList": [],
+                    "propertyKey": "getSelectedValue",
+                    "pw": {
+                        "displayName": "getSelectedValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c6b2df7c5b574f4c96e8b5f6d4087bce",
+                    "paramList": [],
+                    "propertyKey": "resetSelectedValue",
+                    "pw": {
+                        "displayName": "resetSelectedValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "h6b717aff43b4dbcad8ce3ff3ef3ce01",
+                    "originalPropertyKey": "columnRange",
+                    "propertyIndex": 8,
+                    "propertyKey": "columnRange",
+                    "pw": {
+                        "displayName": "Column range for listbox data in A1 notation",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j6066a202e92456db78a2ce359876ea1",
+                    "originalPropertyKey": "columnName",
+                    "propertyIndex": 11,
+                    "propertyKey": "columnName",
+                    "pw": {
+                        "displayName": "Data column name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e8f8954b6b214b4abfae29ef9a3f19de",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a8b8a0155a744825b5507ba010fbf038",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 12,
+                    "propertyKey": "textTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ab10e73fa6c045bcbaaed8b67601da0c"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dce74b7f0b854e4dac5117aa143b4a5a",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 13,
+                    "propertyKey": "isVisiblelistbox",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Listbox Visibility",
+                        "srcWidget": "listBx",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "c45c6fe6b6fc424cb899c63237dfb7bb"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hcb700edfaa44e0383a0bd9319d8d9c4",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 14,
+                    "propertyKey": "placeholder",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "placeholder",
+                        "forkablePlatforms": {
+                            "desktop": [],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8"
+                            ]
+                        },
+                        "isDependentProp": true,
+                        "srcWidget": "listBx",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Text",
+                                "dataUpdaterId": "Forked-Text",
+                                "popupId": "Forked-Text",
+                                "type": "ForkPopupBtn"
+                            },
+                            "Label": {},
+                            "Radiobuttongroup": {}
+                        },
+                        "uiRepresentation": "Label-Textbox-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "c45c6fe6b6fc424cb899c63237dfb7bb"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

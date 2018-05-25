@@ -1,0 +1,230 @@
+{
+    "classname": "sheetPhoneBox",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c0a30594d1544777a44097680f227f1d",
+                    "paramList": [],
+                    "propertyKey": "getComponentType",
+                    "pw": {
+                        "displayName": "getComponentType",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "i8b5dc02bbf242028e9ce39d1295dd7e",
+                    "paramList": [],
+                    "propertyKey": "setEnable",
+                    "pw": {
+                        "displayName": "setEnable",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ge86a8bec34e4942a37e5bf8baa5f8be",
+                    "paramList": [],
+                    "propertyKey": "getText",
+                    "pw": {
+                        "displayName": "getText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ed9a1566731d41bc991adaee6cffbc34",
+                    "paramList": [],
+                    "propertyKey": "setText",
+                    "pw": {
+                        "displayName": "setText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e40cab37cb1e42a0b0cb3e28d71be96f",
+                    "paramList": [],
+                    "propertyKey": "getTextboxText",
+                    "pw": {
+                        "displayName": "getTextboxText",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a3dc794a58f145bab5cbb3800ca031c6",
+                    "paramList": [],
+                    "propertyKey": "setGlobalValue",
+                    "pw": {
+                        "displayName": "setGlobalValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "abd075d9d7a447deb55c4b1895c3df0b",
+                    "originalPropertyKey": "columnName",
+                    "propertyIndex": 3,
+                    "propertyKey": "columnName",
+                    "pw": {
+                        "displayName": "column Name",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gede73cf1a9946d7a1268865d5d125b2",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h53658b0266c4cd996f3ba23fa8c3b4e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "textTitle",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title Text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e80b4d93ab4b48b5902d8b0c4448eb2d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d9379bb1ec8746fd9e48a953efe9b3fb",
+                    "originalPropertyKey": "placeholder",
+                    "propertyIndex": 2,
+                    "propertyKey": "placeholderTextBox",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Text box placeholder",
+                        "srcWidget": "tbxPhone",
+                        "supportedPlatforms": {
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "TextField"
+                    },
+                    "srcWgtKUID": "hda2401f2c1d40e38449ca996cd5b5b7"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bf7483fa07924a0bab14a0d647b7a5dd",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 4,
+                    "propertyKey": "srcCall",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "call button src",
+                        "srcWidget": "imgCall",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "e190f29a2c874fc09b9654b12a1e4fc0"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b5a6968830824f03832948b9033ad4f2",
+                    "originalPropertyKey": "src",
+                    "propertyIndex": 5,
+                    "propertyKey": "srcSms",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "sms button src ",
+                        "srcWidget": "imgSms",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Imagelist",
+                                "dataUpdaterId": "Imagelist",
+                                "popupId": "Imagelist",
+                                "type": "ImageEditBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Label-Button",
+                        "wType": "Image"
+                    },
+                    "srcWgtKUID": "bec6051886dd434190ae34ac0c2357a5"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}
